@@ -64,6 +64,84 @@ if game.gameId == 3317679266 then
  end)
 end
 
+if game.gameId == 601130232 then
+ print("KoratellCord | BSS | Loaded!")
+ local btns = serv:Channel("bss-cheat")
+
+ btns:Button("kometa (v1 free)", function()
+ loadstring(game:HttpGet('https://s.kometa.pw/kometa.lua'))()
+ end)
+
+ btns:Button("kocmoc", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
+ end)
+end
+
+if game.gameId == 4154513353 then
+ print("KoratellCord | BOOGA-BOOGA | Loaded!")
+ local btns = serv:Channel("booga-booga-cheat")
+
+ btns:Button("HydraHub (v3) (key FixedWUpdate)", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/koby465/HydraHubV3/main/HydraHubV3'))()
+ end)
+end
+
+if game.gameId == 994732206 then
+ print("KoratellCord | Blox Fruits | Loaded!")
+ local btns = serv:Channel("blox-fruits-cheat")
+
+ btns:Button("PadoHub", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+ end)
+
+
+ btns:Button("t7gfy", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/minded102/dokinbog/main/README.md", true))()
+ end)
+
+
+ btns:Button("TUPERHUB", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/TUPERX/TUPERX/Main/MenuBF/README.md'))()
+ end)
+
+
+ btns:Button("Makima Hub", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/Piwwy0909/MakimaRemake/main/Cumback.Makima'))() 
+ end)
+
+
+ btns:Button("FTSXHUB", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/tufreescript/FTS-X-Hub/main/FTSXHUB%20V1'))()
+ end)
+
+
+ btns:Button("NukeVsCity (15+ scripts)", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+ end)
+
+ btns:Button("FreeFrai", function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/Padupo/scrnohop/main/FreeFrai'))()
+ end)
+
+ btns:Button("MeMayBeo (mi me ma mu)", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ZPSXHUB/Z/main/MeMayBeo"))()
+ end)
+end
+
+if game.gameId == 66654135 then
+ print("KoratellCord | MM2 | Loaded!")
+ local btns = serv:Channel("mm2-cheat")
+
+ btns:Button("kidachi (working?)", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2", true))()
+ end)
+
+
+ btns:Button("ADMIN PANEL???", function()
+ loadstring(game:HttpGet('https://pastebin.com/raw/DihfjHj2'))()
+ end) 
+end
+
 
 local btns = serv:Channel("universal")
 
@@ -81,4 +159,18 @@ end)
 
 btns:Button("fates admin", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua'))()
+end)
+
+local btns = serv:Channel("for-devs")
+
+btns:Button("dex explorer v5", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
+end)
+
+btns:Button("simple spy", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua"))()
+end)
+
+btns:Button("infinite yield", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
