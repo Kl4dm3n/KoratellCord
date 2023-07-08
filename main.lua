@@ -1,4 +1,4 @@
-local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/Kl4dm3n/KoratellCord/main/ui-lib.lua")()
 
 print(".##..##...####...#####....####...######..######..##......##.....")
 print(".##.##...##..##..##..##..##..##....##....##......##......##.....")
@@ -84,6 +84,11 @@ if game.gameId == 4154513353 then
  btns:Button("HydraHub (v3) (key FixedWUpdate)", function()
  loadstring(game:HttpGet('https://raw.githubusercontent.com/koby465/HydraHubV3/main/HydraHubV3'))()
  end)
+
+
+ btns:Button("DevilHub", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/starlolq/lua-scripts/main/devilhubboogaboogasimplecrack.lua", true))()
+ end)
 end
 
 if game.gameId == 994732206 then
@@ -128,6 +133,21 @@ if game.gameId == 994732206 then
  end)
 end
 
+if game.gameId == 2440500124 then
+ print("KoratellCord | DOORS | Loaded!")
+ local btns = serv:Channel("doors-cheat")
+
+ btns:Button("MSDOORS", function()
+ loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
+ end)
+
+ btns:Button("NukeVsCity", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+ end)
+end
+
+
+
 if game.gameId == 66654135 then
  print("KoratellCord | MM2 | Loaded!")
  local btns = serv:Channel("mm2-cheat")
@@ -139,7 +159,11 @@ if game.gameId == 66654135 then
 
  btns:Button("ADMIN PANEL???", function()
  loadstring(game:HttpGet('https://pastebin.com/raw/DihfjHj2'))()
- end) 
+ end)
+
+ btns:Button("kidachi v2", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2_V2"))()
+ end)  
 end
 
 
